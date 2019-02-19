@@ -1,13 +1,12 @@
 .middle.background {
   background: url("http://murphyshawaii.com/media/2014/04/murphys-front.jpg");
-  background-size: 500px;
-  padding-top: 300px;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 1540px 500px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .ui.borderless.topmenu.container.menu {
-  padding-top: 1px;
   box-shadow: none;
   border: none;
 }
@@ -24,3 +23,9 @@
   background-color: #004030;
   color: white;
 }
+
+.text-right {
+  font-size: medium;
+  font-weight: bold;
+}
+
